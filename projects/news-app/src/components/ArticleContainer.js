@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import ArticleList from "./ArticleList";
+import Search from "./Search";
 
 function ArticleContainer(){
     const[articles, setArticles]= useState([])
-    const [info, setinfo] = useState("anything");
+    const [info, setInfo] = useState("anything");
 //1. fetch data
     useEffect(() => {
             fetch(`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${info}&api-key=XaKNfNlOQFVBd2LdDfeDGz4EtAvB46lz`)
@@ -14,14 +15,15 @@ function ArticleContainer(){
   
 
 
-   
+//    3. search
     return (
         <div>
             <h1>NEWS APP</h1>
             <div className="container">
                 <div className="container-section">
-                    <h2>Search Articles About {info}</h2>
-                    {/* <SearchForm searchNews={(news) => setInfo(news)}/> */}
+                    <h2>Search Articles:</h2>
+                    {/* add search form pass searchItem as a prop*/}
+                    <Search searchItem={(item) => setInfo(item)}/>
                 </div>
             </div><br/><br/>
 {/* 2. Map to article list */}

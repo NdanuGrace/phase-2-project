@@ -7,7 +7,7 @@ function ArticleList({abstract, main, original, lead_paragraph,
 
 return(
     <div className="news-app">
-          <div key={_id} className="new-list">
+          <div key={_id} className="list">
                     <h3 className="heading">{main}</h3>
                     <h4>{abstract}</h4>
                     <p>{lead_paragraph}</p>
