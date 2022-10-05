@@ -59,10 +59,12 @@ font-size: 40px;
   margin: 0 auto;
 }
 
-/* .about-image{
-  background: url(https://images.pexels.com/photos/1524146/pexels-photo-1524146.jpeg?auto=compress&cs=tinysrgb&w=1600);
-  background-position: center;
-background-repeat: no-repeat;
+.about-image{
 height: 500px;
-background-size: 70%;
-} */
+width: 400px;
+}
+
+.about-container h1 {
+  color: blue;
+  margin-left: 475px;
+}
