@@ -3,11 +3,56 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(231, 239, 239);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  background: url(https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-position: center;
+background-repeat: no-repeat;
+height: 500px;
+background-size: 70%;
+
+}
+
+.container .container-section{
+background-color: rgba(0, 0, 0, 0);
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0, 10px, 0, 10px;
+
+}
+h2 {
+  color:white;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+
+h1{
+  color: rgb(82, 32, 126);
+  text-align: center;
+}
+.heading{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+}
+
+.news-app {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.new-list {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
 }
