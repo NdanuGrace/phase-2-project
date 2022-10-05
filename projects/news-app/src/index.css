@@ -35,8 +35,9 @@ h2 {
 }
 
 h1{
-  color: rgb(82, 32, 126);
+  color: rgb(12, 97, 73);
   text-align: center;
+  font-size: 30px;
 }
 .heading{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -51,9 +52,17 @@ font-size: 40px;
 }
 
 .list {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 15px;
   border-radius: 10px;
   width: 80%;
   margin: 0 auto;
 }
+
+/* .about-image{
+  background: url(https://images.pexels.com/photos/1524146/pexels-photo-1524146.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-position: center;
+background-repeat: no-repeat;
+height: 500px;
+background-size: 70%;
+} */

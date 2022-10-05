@@ -3,15 +3,15 @@ import ArticleContainer from "./ArticleContainer";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 // import About from "./About";
 // import ReviewsContainer from "./ReviewsContainer";
-// import NavBar from "./NavBar"
+import NavBar from "./NavBar"
 
 function App() {
   return (
     <div>
     <Router>
       <div>
-        {/* <NavBar/> */}
-      </div>
+         <NavBar/>
+      </div><br/><br/>
       
         <Routes>
           <Route exact path="/" element={<ArticleContainer/>}></Route>
