@@ -11,7 +11,7 @@ body {
 background-position: center;
 background-repeat: no-repeat;
 height: 500px;
-background-size: 70%;
+background-size: 80%;
 
 
 }
@@ -74,10 +74,25 @@ font-size: 40px;
 height: 500px;
 width: 400px;
 }
+.img-container{
+  display:inline-block;
+}
 
 .about-container h1 {
   color: blue;
   margin-left: 475px;
+}
+.about-container{
+  text-align: justify;
+  font-size: 18px;
+}
+.about-news{
+float:right;
+}
+.about-news-app{
+  float: right;
+  text-align:justify;
+  width: 700px;
 }
 
 .text-form input {
@@ -128,3 +143,7 @@ width: 400px;
   margin: 5px;
 }
 
+.nav-container{
+  margin-left: 100px;
+  margin-top: 70px;
+}

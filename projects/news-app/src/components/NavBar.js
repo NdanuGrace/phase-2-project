@@ -15,7 +15,7 @@ function NavBar() {
         
         <nav className="nav-bar">
             <div className="nav-container">
-            <h1>NEWS APP</h1>
+           
             
                 <NavLink to="/"
                 // exact 

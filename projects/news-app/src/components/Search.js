@@ -24,8 +24,7 @@ return (
             placeholder="economy"
             onChange={(e)=> setItem(e.target.value)}
             autoComplete="none"
-            // required
-            // minlength="5"
+           
         />
         <button type="submit" className="btn-submit">Search</button>
     </form>

@@ -18,6 +18,7 @@ function ArticleContainer(){
 //    3. search
     return (
         <div>
+            <h1>NEWS APP</h1>
             <div className="container">
                 <div className="container-section">
                     <h2>Search Articles:</h2>
