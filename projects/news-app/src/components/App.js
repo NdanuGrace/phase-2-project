@@ -2,8 +2,8 @@ import React from "react";
 import ArticleContainer from "./ArticleContainer";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import About from "./About";
-// import ReviewsContainer from "./ReviewsContainer";
-import NavBar from "./NavBar"
+import NavBar from "./NavBar";
+import ReviewsContainer from "./ReviewsContainer"
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<ArticleContainer/>}></Route>
           <Route exact path="/about" element={<About/>}></Route>
-          {/* <Route exact path="/comments" element={<ReviewsContainer/>}></Route> */}
+          <Route exact path="/reviews" element={<ReviewsContainer/>}></Route>
         </Routes>
     </Router>
   </div>

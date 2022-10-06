@@ -16,6 +16,7 @@ function NavBar() {
         <nav className="nav-bar">
             <div className="nav-container">
             <h1>NEWS APP</h1>
+            
                 <NavLink to="/"
                 // exact 
                 style={linkStyles}
@@ -35,12 +36,12 @@ function NavBar() {
                     </NavLink>
 
                     <NavLink
-                  to="/comments"
-                //   exact
+                  to="/reviews"
+                  
                   style={linkStyles}
                
                   >
-                    Comments
+                    Reviews
                     
                     </NavLink>
 

@@ -10,7 +10,7 @@ return(
           <div key={_id} className="list">
                     <h3 className="heading">{main}</h3>
                     <h4>{abstract}</h4>
-                    <p>{lead_paragraph}</p>
+                    <p className="paragraph">{lead_paragraph}</p>
 
                     <ul>
                         <li><span>Author:</span>  {original}</li>
