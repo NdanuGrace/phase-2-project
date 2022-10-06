@@ -10,7 +10,7 @@ function About() {
                         src="https://images.pexels.com/photos/1524146/pexels-photo-1524146.jpeg?auto=compress&cs=tinysrgb&w=1600"
                         // alt=""
                     />
-           
+           <div>
                 <p className="about-news-app">
 
                 The News App is a personalized news aggregator that organizes and highlights what is happening in the world so you can discover more about the stories that matter to you.<br/><br/>
@@ -27,7 +27,7 @@ LEAD PARAGRAPH: Dive deeper into a story with multiple perspectives. The Full Co
 
 
                 </p>
-                
+          </div>      
                     
       </div>
     )

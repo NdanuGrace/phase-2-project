@@ -7,7 +7,6 @@ function NewReviewForm({ addComment }) {
         reader: "",
         title: "", 
         comment: "", 
-        image: ""
     });
 
 
@@ -26,7 +25,6 @@ function NewReviewForm({ addComment }) {
             reader: commentForm.reader,
             title: commentForm.title,
             comment: commentForm.comment,
-            image: commentForm.image
           }),
         })
           .then((res) => res.json())
