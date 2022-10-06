@@ -12,7 +12,7 @@ function About() {
            <div className="about-news">
            <img
                         className="about-image"
-                        src="https://images.pexels.com/photos/6531728/pexels-photo-6531728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        src="https://images.pexels.com/photos/4057766/pexels-photo-4057766.jpeg?auto=compress&cs=tinysrgb&w=1600"
                         // alt=""
                     /> 
                     
