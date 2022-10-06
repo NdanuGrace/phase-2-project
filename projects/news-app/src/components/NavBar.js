@@ -2,12 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const linkStyles = {
-    width: "100px",
-    padding: "10px",
+    width: "500px",
+    padding: "15px",
     margin: "0 6px 6px",
-background: "lightblue",
+background: "rgb(117, 168, 161)",
     textDecoration: "none",
     color: "black",
+    fontSize: "20px"
   };
 function NavBar() {
     return (
