@@ -7,15 +7,16 @@ This App utilizes New York Times API to enhance the accessibility of up-to-date 
 
 
 Features;
-As a user of this site,you will be able to:
+The features include;
 
-Access up-to-date news by inputting the article/topic of interest on the search form.
 Access comments posted by other users about articles they have read.
 Post comments about the news/articles you have read and be able see your comments once posted.
+Access up-to-date news by inputting the article/topic of interest on the search form.
 
 
 
-author
+
+copyright:
 Grace Ndanu Kyalo
 
 live link : https://ndanugrace.github.io/phase-2-project
